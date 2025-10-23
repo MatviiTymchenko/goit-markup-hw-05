@@ -561,6 +561,9 @@ button {
   position: relative;
  
 }
+.modal-textarea-field{
+  margin-bottom: 16px;
+}
 .modal-close-button {
   position: absolute;
   margin-left: auto;
@@ -666,7 +669,6 @@ button {
   width: 360px;
   min-height: 120px;
   resize: none;
-  margin-bottom: 16px;
   background-color: transparent;
   outline: transparent;
   color: rgba(46, 47, 66, 0.4);
@@ -708,7 +710,7 @@ input[type="checkbox"]:checked + .agreement-wrapper .agreement-checkbox {
   color: #4d5ae5;
 }
 .agreement-wrapper {
-  display: inline-flex;
+ 
   justify-content: center;
   align-items: center;
   fill: transparent;
