@@ -559,6 +559,7 @@ button {
 }
 .modal-form-wrapper {
   position: relative;
+ 
 }
 .modal-close-button {
   position: absolute;
@@ -647,9 +648,6 @@ button {
   stroke: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-textarea-field{
-  margin-bottom: 16px;
-}
 
 .modal-form-field {
   margin-bottom: 8px;
@@ -668,6 +666,7 @@ button {
   width: 360px;
   min-height: 120px;
   resize: none;
+  margin-bottom: 16px;
   background-color: transparent;
   outline: transparent;
   color: rgba(46, 47, 66, 0.4);
@@ -678,7 +677,7 @@ button {
   color: rgba(46, 47, 66, 0.4);
 }
 .agreement-checkbox {
- display: inline-flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -709,6 +708,7 @@ input[type="checkbox"]:checked + .agreement-wrapper .agreement-checkbox {
   color: #4d5ae5;
 }
 .agreement-wrapper {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -716,7 +716,7 @@ input[type="checkbox"]:checked + .agreement-wrapper .agreement-checkbox {
   font-weight: 400;
   font-size: 12px;
 
- 
+  /* line-height: 14px; */
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
